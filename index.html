@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mike Penlington</title>
-    <link rel="stylesheet" type="text/css" href="Styles/style.css"/>
-</head>
-<body>
-    
-</body>
+    <!-- browser tab favicon and theming -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./graphics/ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./graphics/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./graphics/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./graphics/ico/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#c29c1d" />
+    <!-- Adobe Fonts link -->
+    <link rel="stylesheet" href="https://use.typekit.net/iok5ojm.css" />
+    <!-- CSS File link -->
+    <link rel="stylesheet" type="text/css" href="Styles/style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="nav-links">
+        <li class="nav-link active"><a href="#">Home</a></li>
+        <li class="nav-link">
+          <a href="./Pages/portfolio.html">Photography</a>
+        </li>
+        <li class="nav-link">
+          <a href="./Pages/bread.html">Breads For Charity</a>
+        </li>
+        <li class="nav-link"><a href="./Pages/contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <i class="line"></i>
+      <i class="line"></i>
+      <i class="line"></i>
+    </div>
+
+    <section class="home slide">
+      <!-- <h2 class="sub-heading">Hi, I'm</h2> -->
+      <!-- <div class="bg-img"></div> -->
+      <div class="heading">
+        <div class="bg-img cursor-reactive"></div>
+        <h1 class="page-heading">Mike <br />Penlington</h1>
+      </div>
+      <div class="text-bg-img"></div>
+      <div class="page-text">
+        <div class="text-bg-img"></div>
+        <p class="text">
+          I find that plenty happens early in the mornings. Bread making often
+          commences before daybreak and many of my photos are taken around this
+          time too.
+        </p>
+        <p class="text">
+          My site combines my appreciation of Southern England countryside
+          alongside my passion for baking in support of charity.
+        </p>
+        <p class="text">
+          I hope you get as much pleasure from looking at my photos as I gain
+          during the moment they are capturing.
+        </p>
+        <div class="buttons">
+          <a href="./Pages/portfolio.html" class="button-gray slide-photography"
+            >Photography</a
+          >
+          <a href="./Pages/bread.html" class="button-gold slide-bakery"
+            >Breads For Charity</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="photo-slide slide"></section>
+    <section class="bakery-slide slide"></section>
+    <script src="./JS/button-hover.js"></script>
+    <script src="./JS/open-nav.js"></script>
+    <!-- <script src="./JS/cursor-react.js"></script> -->
+  </body>
 </html>
