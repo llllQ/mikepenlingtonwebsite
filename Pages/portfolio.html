@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mike Penlington</title>
+    <title>📷 Photography Portfolio - Mike Penlington</title>
+    <meta
+      name="description"
+      content="Mike Penlington Photography Portfolio. Photos ranging in subject from Animals to Landscapes, Urban scenes to Seascapes and everything in-between."
+    />
     <!-- browser tab favicon and theming -->
     <link
       rel="apple-touch-icon"
@@ -47,12 +51,19 @@
     </div>
 
     <section class="home slide no-min">
-      <div class="heading">
+      <!-- <h2 class="sub-heading">Hi, I'm</h2> -->
+      <!-- <div class="bg-img"></div> -->
+      <div class="heading anim" data-duration="0.5s">
         <div class="bg-img cursor-reactive"></div>
-        <h1 class="page-heading">Photography<br />Portfolio</h1>
+        <h1 class="page-heading">Photo-<br />graphy<br />Portfolio</h1>
       </div>
       <div class="text-bg-img"></div>
-      <div class="page-text">
+      <div
+        class="page-text anim"
+        data-duration="0.5s"
+        data-delay="0.2s"
+        data-animType="anim-up"
+      >
         <div class="text-bg-img"></div>
         <p class="text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi unde
@@ -63,7 +74,7 @@
         </p>
         <p class="text">
           Have a look at some of the different collections of photos I taken
-          recently.
+          recently. Click or Tap on a photo to see it in full.
         </p>
       </div>
     </section>
@@ -80,7 +91,6 @@
       <div class="caption"></div>
     </div>
 
-    <!-- Image Gallery Navigation -->
     <nav class="gallery-navigation">
       <ul class="nav-options">
         <li class="option showing">All</li>
@@ -92,7 +102,7 @@
     </nav>
 
     <ul class="image-gallery">
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of a husky"
@@ -100,7 +110,7 @@
           data-tag="Animals"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of apartments"
@@ -108,7 +118,7 @@
           data-tag="Urban"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of two flowers"
@@ -116,7 +126,7 @@
           data-tag="Landscapes"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of some sunflowers"
@@ -124,7 +134,7 @@
           data-tag="Landscapes"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of a woman drinking a cocktail"
@@ -132,7 +142,7 @@
           data-tag="Animals"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of the moon"
@@ -140,7 +150,7 @@
           data-tag="Landscapes"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of a woman dancing in the street"
@@ -148,54 +158,111 @@
           data-tag="Animals"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of a lanscape in the evening"
           data-src="url(../images/photos/8.jpg)"
-          data-tag="landscape"
+          data-tag="Landscapes"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
           data-caption="this is a picture of a woman reading whilst using her surface laptop"
           data-src="url(../images/photos/9.jpg)"
-          data-tag="Urban"
+          data-tag="Animals"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
-          data-caption="this is a picture of a woman reading whilst using her surface laptop"
+          data-caption="this is a picture of an elephant"
           data-src="url(../images/photos/10.jpg)"
-          data-tag="Landscapes"
+          data-tag="Animals"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
-          data-caption="this is a picture of a woman reading whilst using her surface laptop"
+          data-caption="this is a picture of the Durdledore coastline"
           data-src="url(../images/photos/11.jpg)"
-          data-tag="Urban"
+          data-tag="Seascapes"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
-          data-caption="this is a picture of a woman reading whilst using her surface laptop"
+          data-caption="this is a picture of a big cat"
           data-src="url(../images/photos/12.jpg)"
           data-tag="Animals"
         ></figure>
       </li>
-      <li>
+      <li class="image-container">
         <figure
           class="gallery-image"
-          data-caption="this is a picture of a woman reading whilst using her surface laptop"
+          data-caption="this is a picture of a pedestrian underpass at night"
           data-src="url(../images/photos/13.jpg)"
           data-tag="Urban"
         ></figure>
       </li>
+      <li class="image-container">
+        <figure
+          class="gallery-image"
+          data-caption="this is a picture of the Durdledore coastline, from sea-level"
+          data-src="url(../images/photos/14.jpg)"
+          data-tag="Seascapes"
+        ></figure>
+      </li>
+      <li class="image-container">
+        <figure
+          class="gallery-image"
+          data-caption="this is a picture of a dog infront of a cold lake"
+          data-src="url(../images/photos/15.jpg)"
+          data-tag="Animals"
+        ></figure>
+      </li>
+      <li class="image-container">
+        <figure
+          class="gallery-image"
+          data-caption="this is a picture of a city skyline through a broken fence"
+          data-src="url(../images/photos/16.jpg)"
+          data-tag="Urban"
+        ></figure>
+      </li>
+      <li class="image-container">
+        <figure
+          class="gallery-image"
+          data-caption="this is a picture of a calm wave breaking in the sea"
+          data-src="url(../images/photos/17.jpg)"
+          data-tag="Seascapes"
+        ></figure>
+      </li>
+      <li class="image-container">
+        <figure
+          class="gallery-image"
+          data-caption="this is a picture of a busy zebra crossing in the city"
+          data-src="url(../images/photos/18.jpg)"
+          data-tag="Urban"
+        ></figure>
+      </li>
+      <li class="image-container">
+        <figure
+          class="gallery-image"
+          data-caption="this is a picture of a more rough sea at sunset"
+          data-src="url(../images/photos/19.jpg)"
+          data-tag="Seascapes"
+        ></figure>
+      </li>
+      <li class="image-container">
+        <figure
+          class="gallery-image"
+          data-caption="this is a picture of a smoothed coastine picture at low tide in the evening"
+          data-src="url(../images/photos/20.jpg)"
+          data-tag="Seascapes"
+        ></figure>
+      </li>
+
       <!-- <li>
         <figure data-src="url(https://source.unsplash.com/random)"></figure>
       </li> -->
@@ -203,5 +270,7 @@
   </body>
   <script src="../JS/open-nav.js"></script>
   <script src="../JS/lazy-load.js"></script>
+  <script src="../JS/animation.js"></script>
+  <script src="../JS/gallery-selector.js"></script>
   <script src="../JS/modal-script.js"></script>
 </html>

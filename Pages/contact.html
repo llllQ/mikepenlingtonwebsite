@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>👋 Say Hello - Mike Penlington</title>
+    <meta name="description" content="Methods of contacting Mike Penlington." />
+    <!-- browser tab favicon and theming -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../graphics/ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../graphics/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../graphics/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../graphics/ico/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#c29c1d" />
+    <!-- Adobe Fonts link -->
+    <link rel="stylesheet" href="https://use.typekit.net/iok5ojm.css" />
+    <!-- CSS File link -->
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="nav-links">
+        <li class="nav-link"><a href="../index.html">Home</a></li>
+        <li class="nav-link"><a href="./portfolio.html">Photography</a></li>
+        <li class="nav-link active"><a href="#">Breads For Charity</a></li>
+        <li class="nav-link"><a href="./contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <i class="line"></i>
+      <i class="line"></i>
+      <i class="line"></i>
+    </div>
+    <section class="home slide no-min">
+      <div class="heading anim" data-duration="0.5s">
+        <div class="bg-img cursor-reactive"></div>
+        <h1 class="page-heading">Contact<br />Me</h1>
+      </div>
+      <div class="text-bg-img"></div>
+
+      <form
+        class="contact-form anim"
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        data-duration="0.5s"
+        data-delay="0.2s"
+        data-animType="anim-up"
+      >
+        <!-- <div class="text-bg-img"></div> -->
+        <p class="form-field">
+          <label for="name">name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Your Name"
+          />
+        </p>
+
+        <p class="form-field">
+          <label for="email">email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Your Email"
+          />
+        </p>
+
+        <p class="form-field">
+          <label for="query">message</label>
+          <textarea
+            id="query"
+            name="query"
+            rows="7"
+            cols="33"
+            required
+            placeholder="Your Message"
+          ></textarea>
+        </p>
+        <p class="form-field">
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </section>
+    <script src="../JS/open-nav.js"></script>
+    <script src="../JS/animation.js"></script>
+  </body>
+</html>
