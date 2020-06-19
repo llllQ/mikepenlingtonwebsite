@@ -18,7 +18,7 @@ upObserver = new IntersectionObserver((entries) => {
     if (entry.intersectionRatio > 0) {
       entry.target.style.animation = `${entry.target.dataset.animtype} ${entry.target.dataset.duration} forwards ${entry.target.dataset.delay} ease-out`;
     } else {
-      imgObserver.unobserve(entry.target);
+      // imgObserver.unobserve(entry.target);
     }
   });
 });
