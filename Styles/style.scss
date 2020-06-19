@@ -33,14 +33,14 @@ body {
   font-weight: 400;
   font-style: normal;
   color: $gold-clr;
+  text-shadow: 1px 1px #7c630e;
   font-size: 3.5rem;
   line-height: 4.5rem;
-  font-size: 13vw;
+  font-size: 15.5vw;
   line-height: 20vw;
 }
 
 .shadow {
-  text-shadow: 1px 1px #7c630e;
   mix-blend-mode: darken;
 }
 
@@ -602,7 +602,7 @@ button {
     }
   }
 
-  @media (min-width: 605px) {
+  @media (min-width: 650px) {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1rem;
 

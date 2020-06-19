@@ -32,14 +32,14 @@ body.open {
   font-weight: 400;
   font-style: normal;
   color: #c29c1d;
+  text-shadow: 1px 1px #7c630e;
   font-size: 3.5rem;
   line-height: 4.5rem;
-  font-size: 13vw;
+  font-size: 15.5vw;
   line-height: 20vw;
 }
 
 .shadow {
-  text-shadow: 1px 1px #7c630e;
   mix-blend-mode: darken;
 }
 
@@ -712,7 +712,7 @@ button {
       grid-row-start: span 2;
 }
 
-@media (min-width: 605px) {
+@media (min-width: 650px) {
   .image-gallery {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
