@@ -183,6 +183,10 @@ button {
   width: 100%;
   min-height: 100vh;
   position: relative;
+  &.home {
+    // min-height: 0;
+    overflow-y: hidden;
+  }
 }
 
 .no-min {
@@ -211,11 +215,12 @@ button {
       background-position: bottom right;
       background-size: 125%;
       width: 100%;
-      height: 150%;
+      height: 100%;
       top: -25%;
 
       @media screen and (min-width: 1300px) {
         background-size: 100%;
+        top: -34%;
       }
     }
     overflow-y: hidden;
@@ -419,9 +424,9 @@ button {
 
       .text-bg-img {
         display: block;
-        width: 150%;
-        padding-top: 150%;
-        top: -5%;
+        width: 130%;
+        padding-top: 130%;
+        top: -10%;
         left: -10%;
       }
 
@@ -694,6 +699,10 @@ button {
 
 .contact-form {
   // grid-area: text;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   margin: 0 auto;
   padding: 2rem 5%;
