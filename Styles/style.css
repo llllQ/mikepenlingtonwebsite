@@ -687,7 +687,7 @@ button {
       grid-template-columns: 1fr;
   grid-row-gap: 1rem;
   grid-auto-flow: dense;
-  grid-auto-rows: 30vh;
+  grid-auto-rows: 35vh;
 }
 
 .image-gallery figure {
@@ -846,6 +846,32 @@ button {
   }
 }
 
+.contact-picture {
+  min-height: 60vh;
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 8px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+@media screen and (min-width: 750px) {
+  .contact-picture {
+    width: 90%;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1000px) {
+  .contact-picture {
+    height: 100%;
+    min-height: 500px;
+    width: auto;
+    border-radius: 5px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+
 .contact-form {
   min-height: 60vh;
   display: -webkit-box;
@@ -859,10 +885,22 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 5%;
   background-color: rgba(130, 130, 130, 0.05);
   border-radius: 8px;
+}
+
+.contact-form h1 {
+  color: #c29c1d;
+  font-size: 2rem;
+}
+
+@media (min-width: 2000px) {
+  .contact-form h1 {
+    font-size: 2.8rem;
+  }
 }
 
 .contact-form .form-field {
@@ -881,6 +919,12 @@ button {
 .contact-form .form-field label {
   margin: 1em 0;
   color: #c29c1d;
+}
+
+@media (min-width: 2000px) {
+  .contact-form .form-field {
+    font-size: 1.4em;
+  }
 }
 
 .contact-form .form-field input,
@@ -918,6 +962,25 @@ button {
   font-size: 1.1em;
   opacity: 0.9;
   color: #828282;
+}
+
+@media (min-width: 2000px) {
+  .contact-form .form-field input::-webkit-input-placeholder,
+  .contact-form .form-field textarea::-webkit-input-placeholder {
+    font-size: 1.4em;
+  }
+  .contact-form .form-field input:-ms-input-placeholder,
+  .contact-form .form-field textarea:-ms-input-placeholder {
+    font-size: 1.4em;
+  }
+  .contact-form .form-field input::-ms-input-placeholder,
+  .contact-form .form-field textarea::-ms-input-placeholder {
+    font-size: 1.4em;
+  }
+  .contact-form .form-field input::placeholder,
+  .contact-form .form-field textarea::placeholder {
+    font-size: 1.4em;
+  }
 }
 
 .contact-form .form-field input:-webkit-autofill,
